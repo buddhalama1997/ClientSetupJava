@@ -5,7 +5,7 @@ public class ChatClient {
 
     public static void main(String[] args) {
         try {
-            Socket socket = new Socket("Server IP address", 5000);
+            Socket socket = new Socket("Change this to the server's IP address", 5000);
             System.out.println("Connected to server!");
 
             BufferedReader input = new BufferedReader(
